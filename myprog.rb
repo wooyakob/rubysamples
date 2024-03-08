@@ -7,3 +7,9 @@ end
 
 puts sum(3, 4)
 puts sum(5, 7)
+
+a = 1
+b = 3
+
+3.times { puts "Hello!" }
+
