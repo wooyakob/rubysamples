@@ -4,10 +4,8 @@ fahrenheit = (celsius * 9 / 5) + 32
 fh = File.new("celsius.out", "w")
 fh.puts fahrenheit
 fh.close
-
 puts "Reading celcius temperature value from a data file..."
 num = File.read("celsius.out")
-puts "The number is " + num
+puts "Crucnching the numbers... "
 print "Result: "
 puts fahrenheit
-
