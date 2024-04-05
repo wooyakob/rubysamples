@@ -6,6 +6,9 @@ fh.puts fahrenheit
 fh.close
 puts "Reading celcius temperature value from a data file..."
 num = File.read("celsius.out")
-puts "Crucnching the numbers... "
+puts "Crunching the numbers... "
 print "Result: "
 puts fahrenheit
+
+
+
