@@ -10,5 +10,3 @@ puts "Crunching the numbers... "
 print "Result: "
 puts fahrenheit
 
-
-

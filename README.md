@@ -1,3 +1,1 @@
-Programming Ruby, the pragmatic programmer's guide. Practicing Ruby.
-Source code can be found at http://www.pragmaticprogrammer.com/titles/ruby
-
+Practicing Ruby programming, starting with the pragmatic programmer's guide.
