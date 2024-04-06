@@ -38,3 +38,32 @@ puts obj.c2f(100)
 puts obj.c2f(150)
 
 
+# you can make the return explicit but its not required, because it returns a value 212 for the expression obj.c2f(100)
+def obj.c2f(c)
+    return c * 9.0 / 5 + 32
+end
+
+# generic object that understands the business logic of a ticket to an event
+# ticket should field requests for info about the event its for: when, where, name of event, performer, which seat, how much it costs
+
+ticket = Object.new
+
+def ticket.date
+    "01/02/03"
+end
+
+def ticket.venue
+    "Town Hall"
+end
+
+def ticket.performer
+    "Mark Twain"
+end
+
+def ticket.seat
+    "Second Balcony, row J, seat 12"
+end
+
+def ticket.price
+    5.50
+end
