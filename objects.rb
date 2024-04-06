@@ -26,3 +26,15 @@ end
 # to ask obj to talk, use the message sending or method calling syntax, the object obj, responds to, the message talk
 obj.talk
 
+# methods take arguments, list of variables in parentheses
+# teach object to become a celsisu to f converter
+
+def obj.c2f(c)
+    c * 9.0 / 5 + 32
+end
+
+# you provide an argument
+puts obj.c2f(100)
+puts obj.c2f(150)
+
+
